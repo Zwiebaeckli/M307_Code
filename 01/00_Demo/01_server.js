@@ -11,14 +11,10 @@ console.log(`Server running on port ${port}`);//??
 //GET request
 app.get('/api/v1/students', (req,res) =>{
     res.send("students api not yet implemented!");
-});
+   });
 
 
 //POST request
-//??
-//??
-//??
-
-//??
-//??
-//??
+app.post('/api/v1/students', (req,res) =>{
+    res.send(`${req.method} students api not yet implemented!`);
+});
