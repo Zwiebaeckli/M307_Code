@@ -25,21 +25,21 @@ Keine Daten zum Schuh mit ID=6 gefunden!
 */
 
 //Add module
-//??
+const express = require('express');//??
 //Important: DO NOT FORGET round braces!
-//??
-//??
-//??
+const app = express();
+const router = express.Router();
+const port = process.env.PORT || 4000;
 //listen to port and show message that server is running
-//??
-//??
+app.listen(port);
+console.log(`Running at Port ${port}`);
 
 //import shoes daten
-//??
+const data = require('./data/shoes.json');//??
 
 //??
 //request without id ..
-//??
+app.request
     //then send all daten
 //??
 //??
